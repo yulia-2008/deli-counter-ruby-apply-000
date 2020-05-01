@@ -14,14 +14,19 @@
   end
 
  
- 
- def take_a_number( katz_deli, name)
-    katz_deli << name
-  customer_number=katz_deli.index(name)+1
-   puts "Welcome, #{name}. You are number #{customer_number} in line."
+ $x=1
+ def take_a_number
+
+   puts "Odrer N #{$x}"
+   $x+=1
  end
  
- 
+take_a_number 
+
+take_a_number 
+
+take_a_number 
+
 
 
 def now_serving(katz_deli)
